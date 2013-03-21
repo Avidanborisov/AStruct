@@ -62,7 +62,7 @@ Either of the following tools can be used for development:
 
     To build a debug build of the library. This will run the required unit tests from `tests` folder as well.
 
-* __Eclipse CDT Project__
+* __Eclipse CDT__
 
     AStruct can be imported to Eclipse CDT. Import the root folder (containing the Eclipse project files `.project` and `.cproject`) as an existing project. The Eclipse CDT project uses the Makefile for builds, and by default uses the Debug configuration.
 

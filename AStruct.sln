@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AStruct", "AStruct.vcxproj", "{BB4FD81B-1CFC-7EC6-FC1D-F9D39D2F4289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB4FD81B-1CFC-7EC6-FC1D-F9D39D2F4289}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB4FD81B-1CFC-7EC6-FC1D-F9D39D2F4289}.Debug|Win32.Build.0 = Debug|Win32
+		{BB4FD81B-1CFC-7EC6-FC1D-F9D39D2F4289}.Release|Win32.ActiveCfg = Release|Win32
+		{BB4FD81B-1CFC-7EC6-FC1D-F9D39D2F4289}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
