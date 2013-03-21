@@ -73,12 +73,14 @@ Either of the following tools can be used for development:
 Documentation
 -------------
 
-Documentation for AStruct is generated using Doxygen (1.8.3 at least). Run `doxygen` from the root folder, which will generate HTML documentation in the folder `doc`. If you're runnning Linux, run
+Documentation for AStruct is generated using [Doxygen] (1.8.3 at least). Run `doxygen` from the root folder, which will generate HTML documentation in the folder `doc`. If you're runnning Linux, run
 
     make doc
     sudo make install-doc
 
 to generate the documentation and install it to the standard location.
+
+[Doxygen]: http://www.stack.nl/~dimitri/doxygen/index.html
 
 Licensing
 ---------
