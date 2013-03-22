@@ -19,7 +19,7 @@ All the values the data structures refer to are generic pointers (`void *`). It'
 Build
 -----
 
-AStruct can to be built using GCC or MSVC (tested on Linux and Windows). After the build, the library file (.so, .dll) will be in folder `build`.
+AStruct can to be built using GCC or MSVC (tested on Linux and Windows). After the build, the library file (.so, .dll) will be in the folder `build`.
 
 * __Linux/GCC, Windows/MinGW-MSYS, Windows/Cygwin__
 
