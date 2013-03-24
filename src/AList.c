@@ -53,26 +53,22 @@ static void* AListCreate(AList* self, int numArgs, va_list args)
  */
 static void AListClear(AList* self, AValueFree freeValue)
 {
-	AListNode* node;
+	AListNode* node = self->head;
 
-	for (node = self->head; node != NULL; node = node->next)
+	while (node != NULL)
 	{
-		if (node->prev != NULL)
+		AListNode* temp = node;
+		node = node->next;
+
+		if (freeValue != NULL)
 		{
-			if (freeValue != NULL)
-			{
-				freeValue(node->prev->value);
-			}
-			free(node->prev);
+			freeValue(temp->value);
 		}
+
+		free(temp);
 	}
 
-	if (freeValue != NULL)
-	{
-		freeValue(self->tail->value);
-	}
-	free(self->tail);
-
+	self->head = self->tail = NULL;
 	self->size = 0;
 }
 
